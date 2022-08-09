@@ -77,7 +77,9 @@ def conv_irnet_model(input_shape=(256,256,3),n_layers=1,activation_function='rel
     xf = Conv2D(1, (1, 1), activation='sigmoid')(convT)
 
     model=Model(input_vec,xf)
-    opt = Adam(learning_rate=learning_rate, beta_1=0.9, beta_2=0.999, epsilon=None, amsgrad=False)
+    decay_rate = learning_rate / 200
+    opt = Adam(learning_rate=learning_rate, beta_1=0.9, beta_2=0.999, epsilon=None, decay=decay_rate, amsgrad=False)
+    
     model.compile(optimizer=opt, loss=dice_coef_loss, metrics=[iou, dice_coef])
 
     

@@ -2,7 +2,7 @@ from tensorflow.keras import Input
 from tensorflow.keras.models import Model, load_model, save_model
 from tensorflow.keras.layers import Input, Activation, BatchNormalization, Dropout, Lambda, Conv2D, Conv2DTranspose, MaxPooling2D, AveragePooling2D, concatenate
 from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import *
+
 from tensorflow.keras import backend as K
 
 
@@ -100,7 +100,9 @@ def unet_model(input_shape=(256,256,3),n_layers=1,activation_function='relu',lea
 
     conv10 = Conv2D(1, (1, 1), activation='sigmoid')(bn9)
     model=Model(inputs,conv10)
-    opt = Adam(learning_rate=learning_rate, beta_1=0.9, beta_2=0.999, epsilon=None, amsgrad=False)
+    decay_rate = learning_rate / 200
+    opt = Adam(learning_rate=learning_rate, beta_1=0.9, beta_2=0.999, epsilon=None, decay=decay_rate, amsgrad=False)
+    
     model.compile(optimizer=opt, loss=dice_coef_loss, metrics=[iou, dice_coef])
 
     return model
