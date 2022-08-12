@@ -213,10 +213,10 @@ def evaluate_fitness(input_shape,n_layers,activation_function,learning_rate,batc
     training_and_validation_samples=len(df_train)+len(df_val)
     print("==== len train valid data",len(df_train),len(df_val))
     #EVALUATE MODEL
-    test_gen = train_generator(df_test, 32,
+    test_gen = train_generator(df_test, batch_size,
                                     dict(),
                                     target_size=(im_height, im_width))
-    results = model.evaluate(test_gen, steps=len(df_test) / 32)
+    results = model.evaluate(test_gen, steps=len(df_test) / batch_size)
     print("Test IOU: ",results[2])
     iou_test=results[2]
 
