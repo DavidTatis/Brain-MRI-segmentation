@@ -1,0 +1,35 @@
+population: 30
+"{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 8, 'activation_function': 'elu'}","{'n_layers': 2, 'learning_rate': 0.001, 'batch_size': 32, 'activation_function': 'sigmoid'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 32, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 32, 'activation_function': 'relu'}","{'n_layers': 3, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'relu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'elu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 8, 'activation_function': 'relu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 32, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 1e-05, 'batch_size': 8, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'relu'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'relu'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 16, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 16, 'activation_function': 'tanh'}","{'n_layers': 3, 'learning_rate': 0.01, 'batch_size': 16, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 0.0001, 'batch_size': 32, 'activation_function': 'elu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 8, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 32, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 0.01, 'batch_size': 16, 'activation_function': 'elu'}","{'n_layers': 2, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'sigmoid'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 32, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 1e-05, 'batch_size': 4, 'activation_function': 'relu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 4, 'activation_function': 'sigmoid'}","{'n_layers': 2, 'learning_rate': 0.01, 'batch_size': 4, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 8, 'activation_function': 'tanh'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'relu'}","{'n_layers': 3, 'learning_rate': 0.01, 'batch_size': 32, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 4, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'tanh'}"
+population: 30
+"{'n_layers': 3, 'learning_rate': 0.01, 'batch_size': 8, 'activation_function': 'tanh'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'relu'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 4, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.01, 'batch_size': 4, 'activation_function': 'elu'}","{'n_layers': 2, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'tanh'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 0.01, 'batch_size': 4, 'activation_function': 'relu'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 4, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 0.0001, 'batch_size': 32, 'activation_function': 'relu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 1e-05, 'batch_size': 4, 'activation_function': 'relu'}","{'n_layers': 1, 'learning_rate': 1e-05, 'batch_size': 4, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'elu'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'elu'}","{'n_layers': 1, 'learning_rate': 1e-05, 'batch_size': 32, 'activation_function': 'elu'}","{'n_layers': 3, 'learning_rate': 0.001, 'batch_size': 4, 'activation_function': 'sigmoid'}","{'n_layers': 2, 'learning_rate': 0.0001, 'batch_size': 8, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 4, 'activation_function': 'sigmoid'}","{'n_layers': 2, 'learning_rate': 0.01, 'batch_size': 32, 'activation_function': 'relu'}","{'n_layers': 2, 'learning_rate': 0.0001, 'batch_size': 8, 'activation_function': 'elu'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 8, 'activation_function': 'sigmoid'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 16, 'activation_function': 'relu'}","{'n_layers': 3, 'learning_rate': 0.01, 'batch_size': 32, 'activation_function': 'tanh'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 32, 'activation_function': 'relu'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 16, 'activation_function': 'sigmoid'}","{'n_layers': 3, 'learning_rate': 0.0001, 'batch_size': 16, 'activation_function': 'relu'}","{'n_layers': 1, 'learning_rate': 0.001, 'batch_size': 8, 'activation_function': 'tanh'}","{'n_layers': 1, 'learning_rate': 0.0001, 'batch_size': 8, 'activation_function': 'sigmoid'}","{'n_layers': 2, 'learning_rate': 1e-05, 'batch_size': 16, 'activation_function': 'relu'}","{'n_layers': 3, 'learning_rate': 0.01, 'batch_size': 4, 'activation_function': 'elu'}"
+i:0Metric:0.0069403364
+i:1Metric:0.0069403364
+i:2Metric:0.0069403364
+i:3Metric:0.0069403364
+i:4Metric:0.0069403364
+i:5Metric:0.62378144
+i:6Metric:0.0069403364
+i:7Metric:0.5945544
+i:8Metric:0.8166712
+i:9Metric:0.6228072
+i:10Metric:0.59418094
+i:11Metric:0.52226615
+i:12Metric:0.0069403364
+i:13Metric:0.0069403364
+i:14Metric:0.5961145
+i:15Metric:0.0069403364
+i:16Metric:0.7771513
+i:17Metric:0.0069403364
+i:18Metric:0.7238599
+i:19Metric:0.0069403388
+i:20Metric:0.61629564
+i:21Metric:0.8220455
+i:22Metric:0.84584576
+i:23Metric:0.6826717
+i:24Metric:0.701404
+i:25Metric:0.8816694
+i:26Metric:0.66987467
+i:27Metric:0.6147938
+i:28Metric:0.68554926
+i:29Metric:0.0069403364
+E,N,D
